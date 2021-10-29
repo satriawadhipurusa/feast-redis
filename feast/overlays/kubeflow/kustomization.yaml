@@ -7,7 +7,6 @@ commonLabels:
 bases:
 - ../../base
 patchesStrategicMerge:
-- patches/namespace.yaml
 - patches/redis.yaml
 # If Kafka is enabled, uncomment the following patches.
 # - patches/kafka.yaml
